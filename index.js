@@ -8,7 +8,6 @@ var messages = {
     title       : 'PASSED - %s',
     message     : '%d tests passed in %s.',
     icon        : path.join(__dirname, 'images/success.png'),
-    sound: true
   },
   failed : {
     displayName : 'Failure',
