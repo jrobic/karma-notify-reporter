@@ -7,25 +7,29 @@ var messages = {
     displayName : 'Success',
     title       : 'PASSED - %s',
     message     : '%d tests passed in %s.',
-    icon        : path.join(__dirname, 'images/success.png')
+    icon        : path.join(__dirname, 'images/success.png'),
+    sound: true
   },
   failed : {
     displayName : 'Failure',
     title       : 'FAILED - %s',
     message     : '%d/%d tests failed in %s.',
-    icon        : path.join(__dirname, 'images/failed.png')
+    icon        : path.join(__dirname, 'images/failed.png'),
+    sound: true
   },
   error : {
     displayName : 'Aborted',
     title       : 'ERROR - %s',
     message     : '',
-    icon        : path.join(__dirname, 'images/error.png')
+    icon        : path.join(__dirname, 'images/error.png'),
+    sound: true
   },
   specFailed : {
     displayName : 'Spec Failure',
     title       : 'Spec Failed - %s',
     message     : '%s',
-    icon        : path.join(__dirname, 'images/failed.png')
+    icon        : path.join(__dirname, 'images/failed.png'),
+    sound: true
   }
 };
 
