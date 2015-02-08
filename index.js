@@ -15,21 +15,21 @@ var messages = {
     title       : 'FAILED - %s',
     message     : '%d/%d tests failed in %s.',
     icon        : path.join(__dirname, 'images/failed.png'),
-    sound: true
+    sound: 'Basso'
   },
   error : {
     displayName : 'Aborted',
     title       : 'ERROR - %s',
     message     : '',
     icon        : path.join(__dirname, 'images/error.png'),
-    sound: true
+    sound: 'Basso'
   },
   specFailed : {
     displayName : 'Spec Failure',
     title       : 'Spec Failed - %s',
     message     : '%s',
     icon        : path.join(__dirname, 'images/failed.png'),
-    sound: true
+    sound: 'Basso'
   }
 };
 
